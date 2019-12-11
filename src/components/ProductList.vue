@@ -8,7 +8,9 @@
               <div class="card-body px-0">
                 <h3>{{ title }}</h3>
                 <p class="text-muted">{{ subtitle }}</p>
-                <router-link to=".">VIEW ALL</router-link>
+                <router-link to=".">
+                  VIEW ALL <i class="fal fa-angle-right"></i>
+                </router-link>
               </div>
             </div>
           </div>

@@ -1,13 +1,13 @@
 <template>
   <div class="home">
-    <navbar></navbar>
+    <SiteHeader />
     <ProductList
       title='Popular Movies to Watch Now'
       subtitle="Most watched movies by days"
       :movies="moviesB1"
     />
     <ProductList title="Romantic for Valentines Day" :movies="moviesB2" />
-    <HelloWorld title="Action & Drama Movies" :movies="moviesB3" />
+    <ProductList title="Action & Drama Movies" :movies="moviesB3" />
     <site-footer></site-footer>
   </div>
 </template>

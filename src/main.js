@@ -13,7 +13,7 @@ import "./assets/app.scss";
 
 Vue.config.productionTip = false;
 
-Vue.component('Navbar', require('./components/Navbar.vue').default);
+Vue.component('SiteHeader', require('./components/SiteHeader.vue').default);
 Vue.component('SiteFooter', require('./components/SiteFooter.vue').default);
 
 new Vue({
